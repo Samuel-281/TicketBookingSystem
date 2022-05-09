@@ -16,6 +16,8 @@
 		B7C46D8A282922E4004C4FA2 /* TicketBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D89282922E4004C4FA2 /* TicketBookingTests.swift */; };
 		B7C46D94282922E4004C4FA2 /* TicketBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D93282922E4004C4FA2 /* TicketBookingUITests.swift */; };
 		B7C46D96282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D95282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift */; };
+		B7C46DA328295D6D004C4FA2 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46DA228295D6D004C4FA2 /* RegisterVC.swift */; };
+		B7C46DA5282960F2004C4FA2 /* SuccessVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46DA4282960F2004C4FA2 /* SuccessVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B7C46D8F282922E4004C4FA2 /* TicketBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C46D93282922E4004C4FA2 /* TicketBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITests.swift; sourceTree = "<group>"; };
 		B7C46D95282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B7C46DA228295D6D004C4FA2 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		B7C46DA4282960F2004C4FA2 /* SuccessVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,8 @@
 				B7C46D72282922E1004C4FA2 /* AppDelegate.swift */,
 				B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */,
 				B7C46D76282922E1004C4FA2 /* LoginVC.swift */,
+				B7C46DA228295D6D004C4FA2 /* RegisterVC.swift */,
+				B7C46DA4282960F2004C4FA2 /* SuccessVc.swift */,
 				B7C46D78282922E1004C4FA2 /* Main.storyboard */,
 				B7C46D7B282922E4004C4FA2 /* Assets.xcassets */,
 				B7C46D7D282922E4004C4FA2 /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B7C46D77282922E1004C4FA2 /* LoginVC.swift in Sources */,
+				B7C46DA328295D6D004C4FA2 /* RegisterVC.swift in Sources */,
 				B7C46D73282922E1004C4FA2 /* AppDelegate.swift in Sources */,
+				B7C46DA5282960F2004C4FA2 /* SuccessVc.swift in Sources */,
 				B7C46D75282922E1004C4FA2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
