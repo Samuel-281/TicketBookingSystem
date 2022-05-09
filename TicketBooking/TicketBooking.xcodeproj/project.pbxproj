@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7C46D73282922E1004C4FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D72282922E1004C4FA2 /* AppDelegate.swift */; };
+		B7C46D75282922E1004C4FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */; };
+		B7C46D77282922E1004C4FA2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D76282922E1004C4FA2 /* LoginVC.swift */; };
+		B7C46D7A282922E1004C4FA2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C46D78282922E1004C4FA2 /* Main.storyboard */; };
+		B7C46D7C282922E4004C4FA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7C46D7B282922E4004C4FA2 /* Assets.xcassets */; };
+		B7C46D7F282922E4004C4FA2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7C46D7D282922E4004C4FA2 /* LaunchScreen.storyboard */; };
+		B7C46D8A282922E4004C4FA2 /* TicketBookingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D89282922E4004C4FA2 /* TicketBookingTests.swift */; };
+		B7C46D94282922E4004C4FA2 /* TicketBookingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D93282922E4004C4FA2 /* TicketBookingUITests.swift */; };
+		B7C46D96282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D95282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7C46D86282922E4004C4FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7C46D67282922E1004C4FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7C46D6E282922E1004C4FA2;
+			remoteInfo = TicketBooking;
+		};
+		B7C46D90282922E4004C4FA2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7C46D67282922E1004C4FA2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7C46D6E282922E1004C4FA2;
+			remoteInfo = TicketBooking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7C46D6F282922E1004C4FA2 /* TicketBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C46D72282922E1004C4FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B7C46D76282922E1004C4FA2 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		B7C46D79282922E1004C4FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7C46D7B282922E4004C4FA2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7C46D7E282922E4004C4FA2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7C46D80282922E4004C4FA2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7C46D85282922E4004C4FA2 /* TicketBookingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBookingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C46D89282922E4004C4FA2 /* TicketBookingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingTests.swift; sourceTree = "<group>"; };
+		B7C46D8F282922E4004C4FA2 /* TicketBookingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TicketBookingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7C46D93282922E4004C4FA2 /* TicketBookingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITests.swift; sourceTree = "<group>"; };
+		B7C46D95282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketBookingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7C46D6C282922E1004C4FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D82282922E4004C4FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D8C282922E4004C4FA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7C46D66282922E1004C4FA2 = {
+			isa = PBXGroup;
+			children = (
+				B7C46D71282922E1004C4FA2 /* TicketBooking */,
+				B7C46D88282922E4004C4FA2 /* TicketBookingTests */,
+				B7C46D92282922E4004C4FA2 /* TicketBookingUITests */,
+				B7C46D70282922E1004C4FA2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7C46D70282922E1004C4FA2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7C46D6F282922E1004C4FA2 /* TicketBooking.app */,
+				B7C46D85282922E4004C4FA2 /* TicketBookingTests.xctest */,
+				B7C46D8F282922E4004C4FA2 /* TicketBookingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7C46D71282922E1004C4FA2 /* TicketBooking */ = {
+			isa = PBXGroup;
+			children = (
+				B7C46D72282922E1004C4FA2 /* AppDelegate.swift */,
+				B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */,
+				B7C46D76282922E1004C4FA2 /* LoginVC.swift */,
+				B7C46D78282922E1004C4FA2 /* Main.storyboard */,
+				B7C46D7B282922E4004C4FA2 /* Assets.xcassets */,
+				B7C46D7D282922E4004C4FA2 /* LaunchScreen.storyboard */,
+				B7C46D80282922E4004C4FA2 /* Info.plist */,
+			);
+			path = TicketBooking;
+			sourceTree = "<group>";
+		};
+		B7C46D88282922E4004C4FA2 /* TicketBookingTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7C46D89282922E4004C4FA2 /* TicketBookingTests.swift */,
+			);
+			path = TicketBookingTests;
+			sourceTree = "<group>";
+		};
+		B7C46D92282922E4004C4FA2 /* TicketBookingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7C46D93282922E4004C4FA2 /* TicketBookingUITests.swift */,
+				B7C46D95282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift */,
+			);
+			path = TicketBookingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7C46D6E282922E1004C4FA2 /* TicketBooking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C46D99282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBooking" */;
+			buildPhases = (
+				B7C46D6B282922E1004C4FA2 /* Sources */,
+				B7C46D6C282922E1004C4FA2 /* Frameworks */,
+				B7C46D6D282922E1004C4FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketBooking;
+			productName = TicketBooking;
+			productReference = B7C46D6F282922E1004C4FA2 /* TicketBooking.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7C46D84282922E4004C4FA2 /* TicketBookingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C46D9C282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBookingTests" */;
+			buildPhases = (
+				B7C46D81282922E4004C4FA2 /* Sources */,
+				B7C46D82282922E4004C4FA2 /* Frameworks */,
+				B7C46D83282922E4004C4FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C46D87282922E4004C4FA2 /* PBXTargetDependency */,
+			);
+			name = TicketBookingTests;
+			productName = TicketBookingTests;
+			productReference = B7C46D85282922E4004C4FA2 /* TicketBookingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7C46D8E282922E4004C4FA2 /* TicketBookingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7C46D9F282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBookingUITests" */;
+			buildPhases = (
+				B7C46D8B282922E4004C4FA2 /* Sources */,
+				B7C46D8C282922E4004C4FA2 /* Frameworks */,
+				B7C46D8D282922E4004C4FA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7C46D91282922E4004C4FA2 /* PBXTargetDependency */,
+			);
+			name = TicketBookingUITests;
+			productName = TicketBookingUITests;
+			productReference = B7C46D8F282922E4004C4FA2 /* TicketBookingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7C46D67282922E1004C4FA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					B7C46D6E282922E1004C4FA2 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					B7C46D84282922E4004C4FA2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B7C46D6E282922E1004C4FA2;
+					};
+					B7C46D8E282922E4004C4FA2 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = B7C46D6E282922E1004C4FA2;
+					};
+				};
+			};
+			buildConfigurationList = B7C46D6A282922E1004C4FA2 /* Build configuration list for PBXProject "TicketBooking" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7C46D66282922E1004C4FA2;
+			productRefGroup = B7C46D70282922E1004C4FA2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7C46D6E282922E1004C4FA2 /* TicketBooking */,
+				B7C46D84282922E4004C4FA2 /* TicketBookingTests */,
+				B7C46D8E282922E4004C4FA2 /* TicketBookingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7C46D6D282922E1004C4FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C46D7F282922E4004C4FA2 /* LaunchScreen.storyboard in Resources */,
+				B7C46D7C282922E4004C4FA2 /* Assets.xcassets in Resources */,
+				B7C46D7A282922E1004C4FA2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D83282922E4004C4FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D8D282922E4004C4FA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7C46D6B282922E1004C4FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C46D77282922E1004C4FA2 /* LoginVC.swift in Sources */,
+				B7C46D73282922E1004C4FA2 /* AppDelegate.swift in Sources */,
+				B7C46D75282922E1004C4FA2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D81282922E4004C4FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C46D8A282922E4004C4FA2 /* TicketBookingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7C46D8B282922E4004C4FA2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7C46D96282922E4004C4FA2 /* TicketBookingUITestsLaunchTests.swift in Sources */,
+				B7C46D94282922E4004C4FA2 /* TicketBookingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7C46D87282922E4004C4FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C46D6E282922E1004C4FA2 /* TicketBooking */;
+			targetProxy = B7C46D86282922E4004C4FA2 /* PBXContainerItemProxy */;
+		};
+		B7C46D91282922E4004C4FA2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7C46D6E282922E1004C4FA2 /* TicketBooking */;
+			targetProxy = B7C46D90282922E4004C4FA2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7C46D78282922E1004C4FA2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C46D79282922E1004C4FA2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7C46D7D282922E4004C4FA2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7C46D7E282922E4004C4FA2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7C46D97282922E4004C4FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7C46D98282922E4004C4FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7C46D9A282922E4004C4FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketBooking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7C46D9B282922E4004C4FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TicketBooking/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBooking;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7C46D9D282922E4004C4FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBooking.app/TicketBooking";
+			};
+			name = Debug;
+		};
+		B7C46D9E282922E4004C4FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBookingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TicketBooking.app/TicketBooking";
+			};
+			name = Release;
+		};
+		B7C46DA0282922E4004C4FA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketBooking;
+			};
+			name = Debug;
+		};
+		B7C46DA1282922E4004C4FA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TicketBookingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TicketBooking;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7C46D6A282922E1004C4FA2 /* Build configuration list for PBXProject "TicketBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C46D97282922E4004C4FA2 /* Debug */,
+				B7C46D98282922E4004C4FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C46D99282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBooking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C46D9A282922E4004C4FA2 /* Debug */,
+				B7C46D9B282922E4004C4FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C46D9C282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBookingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C46D9D282922E4004C4FA2 /* Debug */,
+				B7C46D9E282922E4004C4FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7C46D9F282922E4004C4FA2 /* Build configuration list for PBXNativeTarget "TicketBookingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7C46DA0282922E4004C4FA2 /* Debug */,
+				B7C46DA1282922E4004C4FA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7C46D67282922E1004C4FA2 /* Project object */;
+}
