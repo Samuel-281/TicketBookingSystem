@@ -11,30 +11,33 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
 
     var currentSelectIndex = 0
     var buttonArray = [UIButton]()
+    
+    var allData = [MovieDataModel]()
+    var datasource = [MovieDataModel]()
     @IBOutlet weak var comingSoonButton: UIButton!
     @IBOutlet weak var nowShowingButton: UIButton!
-      
-    var nowShowArray = [(name:"Doctor Strange in the Multiverse of Madness",img:1),
-                        (name:"Operation Mincemeat",img:2),
-                        (name:"Downtown Abbey: A New Era",img:3),
-                        (name:"The Lost City",img:4),
-                        (name:"Father Stu",img:5),
-                        (name:"Sonic the Hedgehog 2",img:6),
-    ]
-    
-    var comingSoonArray = [(name:"Top Gun: Maverick",startTime:"2022-05-26",img:7),
-                           (name:"The Bob’s Burgers Movie",startTime:"2022-05-26",img:8),
-                           (name:"Hatching",startTime:"2022-05-26",img:9),
-                           (name:"Detective Conan: The bride of Halloween",startTime:"2022-06-02",img:10),
-                           (name:"Man of God",startTime:"2022-06-02",img:11),
-                           (name:"Mothering Sunday",startTime:"2022-06-02",img:12),
-    ]
+     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        super.viewWillAppear(animated)
+        navigationController?.setNavigationBarHidden(true, animated: true)
+    }
+    override func viewWillDisappear(_ animated: Bool) {
+        
+        super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+    }
     
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        //本地json数据可以修改
+        allData  =  loadJson("MovieData.json")
+        datasource = allData.filter{$0.movieType == "0"}
+        
        buttonArray = [nowShowingButton,comingSoonButton]
     }
     
@@ -42,6 +45,8 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     @IBAction func titleButtonClick(_ sender: UIButton) {
         
         currentSelectIndex = sender.tag
+        
+        datasource = allData.filter{$0.movieType == "\(sender.tag)"}
         
         buttonArray.forEach { buttton in
             
@@ -59,7 +64,7 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
-        return currentSelectIndex == 0 ? nowShowArray.count : comingSoonArray.count
+        return datasource.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -69,17 +74,27 @@ class HomeViewController: UIViewController,UITableViewDelegate,UITableViewDataSo
             
             let cell = tableView.dequeueReusableCell(withIdentifier: "NowShowTableViewCell", for: indexPath) as! NowShowTableViewCell
             
-            cell.nameLabel.text = nowShowArray[indexPath.row].name
-            cell.headImageView.image = UIImage(named: "\(nowShowArray[indexPath.row].img)")
+            let model = datasource[indexPath.row]
+            cell.nameLabel.text = model.name
+            cell.headImageView.image = UIImage(named: "\(model.img)")
             
             return cell
         }
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "CommingSoonTableViewCell", for: indexPath) as! CommingSoonTableViewCell
-        cell.nameLabel.text = comingSoonArray[indexPath.row].name
-        cell.headImageView.image = UIImage(named: "\(comingSoonArray[indexPath.row].img)")
+        let model = datasource[indexPath.row]
+        cell.nameLabel.text = model.name
+        cell.headImageView.image = UIImage(named: "\(model.img)")
         
         return cell
+    }
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let vc = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailViewController") as! MovieDetailViewController
+        
+        vc.detailModel = self.datasource[indexPath.row]
+        vc.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
 
