@@ -13,6 +13,7 @@ class RegisterVC: UIViewController {
     @IBOutlet weak var Password: UITextField!
     @IBOutlet weak var ErrorLabel: UILabel!
     
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "success",
            let destination = segue.destination as? SuccessVC{
@@ -44,6 +45,24 @@ class RegisterVC: UIViewController {
     @IBAction func ClickLoginButton(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
     }
+    
+    @IBAction func SignInButtonTapped(_ sender: AnyObject) {
+        let userName = Username.text;
+        let userPassword = Password.text;
+        
+        //store data
+        UserDefaults.standard.set(userName,forKey:"userName");
+        
+        UserDefaults.standard.set(userPassword,forKey:"userPassword");
+        
+        UserDefaults.standard.synchronize();
+        
+        
+        
+        
+    }
+    
+    
     /*
     // MARK: - Navigation
 

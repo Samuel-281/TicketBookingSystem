@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B730A2672834BF15007A97C9 /* png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png in Resources */ = {isa = PBXBuildFile; fileRef = B730A2662834BF15007A97C9 /* png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png */; };
 		B7C46D73282922E1004C4FA2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D72282922E1004C4FA2 /* AppDelegate.swift */; };
 		B7C46D75282922E1004C4FA2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */; };
 		B7C46D77282922E1004C4FA2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C46D76282922E1004C4FA2 /* LoginVC.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B730A2662834BF15007A97C9 /* png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png"; path = "../../../../../Desktop/png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png"; sourceTree = "<group>"; };
 		B7C46D6F282922E1004C4FA2 /* TicketBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicketBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7C46D72282922E1004C4FA2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B7C46D74282922E1004C4FA2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 				B7C46D76282922E1004C4FA2 /* LoginVC.swift */,
 				B7C46DA228295D6D004C4FA2 /* RegisterVC.swift */,
 				B7C46DA4282960F2004C4FA2 /* SuccessVc.swift */,
+				B730A2662834BF15007A97C9 /* png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png */,
 				B7C46D78282922E1004C4FA2 /* Main.storyboard */,
 				B7C46D7B282922E4004C4FA2 /* Assets.xcassets */,
 				B7C46D7D282922E4004C4FA2 /* LaunchScreen.storyboard */,
@@ -240,6 +243,7 @@
 				B7C46D7F282922E4004C4FA2 /* LaunchScreen.storyboard in Resources */,
 				B7C46D7C282922E4004C4FA2 /* Assets.xcassets in Resources */,
 				B7C46D7A282922E1004C4FA2 /* Main.storyboard in Resources */,
+				B730A2672834BF15007A97C9 /* png-transparent-movie-time-graphic-film-cinema-logo-film-elements-cdr-food-text.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

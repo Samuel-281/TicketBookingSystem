@@ -23,6 +23,12 @@ class LoginVC: UIViewController {
     
     override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
         
+        let userName = Username.text;
+        let password = Password.text;
+        
+        let userNameStored = UserDefaults.standard.string(forKey: "userName");
+        let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword");
+        
         if identifier == "success" {
             if Username.text == nil || Username.text == ""{
                 ErrorLabel.text = "Please enter Username"
@@ -34,11 +40,41 @@ class LoginVC: UIViewController {
                 return false;
             }
             
+            if userNameStored != userName || userPasswordStored != password{
+                ErrorLabel.text = "Incorrect"
+                return false;
+            }
+            
+            if(userNameStored == userName){
+                if(userPasswordStored == password){
+                    //login successfull
+                    return true;
+                }
+            }
             ErrorLabel.text = nil
+            return false
         }
         return true
     }
-
+    
+    @IBAction func loginButtonTapped(_ sender: AnyObject) {
+        
+        let userName = Username.text;
+        let password = Password.text;
+        
+        let userNameStored = UserDefaults.standard.string(forKey: "userName");
+        let userPasswordStored = UserDefaults.standard.string(forKey: "userPassword");
+        
+        if(userNameStored == userName){
+            if(userPasswordStored == password){
+                //login successfull
+                
+                
+            }
+        }
+        
+    }
+    
 
 }
 
