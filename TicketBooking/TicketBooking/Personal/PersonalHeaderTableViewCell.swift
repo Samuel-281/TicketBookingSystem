@@ -1,9 +1,4 @@
-//
-//  PersonalHeaderTableViewCell.swift
-//  TicketBooking
-//
-//  Created by Yang on 2022/5/16.
-//
+
 
 import UIKit
 
@@ -16,7 +11,7 @@ class PersonalHeaderTableViewCell: UITableViewCell {
         super.awakeFromNib()
 
         
-      let name =   UserDefaults.standard.value(forKey: "USERNAME") ?? ""
+      let name =   UserDefaults.standard.value(forKey: "userName") ?? ""
         
         nameLabel.text = name as? String
     }
@@ -24,7 +19,7 @@ class PersonalHeaderTableViewCell: UITableViewCell {
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+ 
     }
 
 }
